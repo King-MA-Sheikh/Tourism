@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore World Tourism</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <a href="#" class="logo"><i class="fas fa-globe-americas"></i><span>T</span>ourism</a>
+        
+        <div id="menu-bar" class="fas fa-bars"></div>
+        
+        <nav class="navbar">
+            <a href="#home" class="active">HOME</a>
+            <a href="#featured">FEATURED</a>
+            <a href="#book">BOOK</a>
+            <a href="#gallery">GALLERY</a>
+            <a href="#testimonials">TESTIMONIALS</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+        
+        <div class="search-login">
+            <div class="search-box">
+                <input type="text" placeholder="Search...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="login-btn">Login</div>
+        </div>
+    </header>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Adventure is Worthwhile</h3>
+            <p>Discover new places with us, adventure awaits</p>
+            <a href="#book" class="btn">Explore Now</a>
+        </div>
+        
+        <div class="video-container">
+            <video src="video.mp4" id="video-slider" loop autoplay muted></video>
+            <div class="video-overlay"></div>
+        </div>
+    </section>
+
+    <!-- Featured Destinations Section -->
+    <section class="section featured-destinations" id="featured">
+        <div class="container">
+            <div class="section-title">
+                <h1>Featured Destinations</h1>
+                <p>Explore our most popular travel destinations around the world</p>
+            </div>
+
+            <div class="destination-slider swiper">
+                <div class="swiper-wrapper">
+                    <div class="destination-slide swiper-slide">
+                        <div class="destination-image">
+                            <img src="https://images.unsplash.com/photo-1512341689857-198e7e2f3ca8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Bali">
+                        </div>
+                        <div class="destination-content">
+                            <h3>Bali, Indonesia</h3>
+                            <p>Experience the perfect blend of culture, beaches, and nightlife</p>
+                            <div class="destination-meta">
+                                <div class="destination-price">$899</div>
+                                <div class="destination-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="destination-slide swiper-slide">
+                        <div class="destination-image">
+                            <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Paris">
+                        </div>
+                        <div class="destination-content">
+                            <h3>Paris, France</h3>
+                            <p>The city of love and lights awaits your visit</p>
+                            <div class="destination-meta">
+                                <div class="destination-price">$1199</div>
+                                <div class="destination-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="destination-slide swiper-slide">
+                        <div class="destination-image">
+                            <img src="https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Santorini">
+                        </div>
+                        <div class="destination-content">
+                            <h3>Santorini, Greece</h3>
+                            <p>White buildings and blue domes with stunning sea views</p>
+                            <div class="destination-meta">
+                                <div class="destination-price">$1299</div>
+                                <div class="destination-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="destination-slide swiper-slide">
+                        <div class="destination-image">
+                            <img src="https://images.unsplash.com/photo-1507699622108-4be3abd695ad?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Tokyo">
+                        </div>
+                        <div class="destination-content">
+                            <h3>Tokyo, Japan</h3>
+                            <p>Modern technology meets traditional culture</p>
+                            <div class="destination-meta">
+                                <div class="destination-price">$1499</div>
+                                <div class="destination-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Book Section -->
+    <section class="section book" id="book">
+        <div class="container">
+            <div class="book-content">
+                <div class="book-text">
+                    <h2>Explore New Places, Adventure Awaits.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repellat, ratione minus fugiat, libero aliquam nisi magnam veritatis consectetur magni explicabo quibusdam rerum? Similique a laborum nulla doloremque voluptatibus repudiandae?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, labore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, voluptate.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+                
+                <div class="booking-form">
+                    <h3>Search Your Destination</h3>
+                    
+                    <div class="form-group">
+                        <label for="location" class="location">Location</label>
+                        <input type="text" id="location" placeholder="Place You want to visit">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="guests" class="location">Guest Members</label>
+                        <input type="number" id="guests" placeholder="Number Of Peoples" min="1">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="arrival" class="location">Arrival</label>
+                        <div style="position: relative;">
+                            <input type="date" id="arrival">
+                            <i class="bx bxs-calendar"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="leaving" class="location">Leaving</label>
+                        <div style="position: relative;">
+                            <input type="date" id="leaving">
+                            <i class="bx bxs-calendar"></i>
+                        </div>
+                    </div>
+                    
+                    <button class="form-btn">Search</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="section gallery" id="gallery">
+        <div class="container">
+            <div class="section-title">
+                <h1>Travel Gallery</h1>
+                <p>Get inspired by these amazing travel experiences from around the world</p>
+            </div>
+
+            <div class="gallery-slider swiper">
+                <div class="swiper-wrapper">
+                    <div class="gallery-slide swiper-slide">
+                        <div class="gallery-image">
+                            <img src="https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Delhi">
+                        </div>
+                        <div class="gallery-content">
+                            <div class="destination">Delhi</div>
+                            <div class="gallery-meta">
+                                <div class="gallery-date">
+                                    <i class="bx bxs-calendar"></i>
+                                    <span>20th January 2024</span>
+                                </div>
+                                <div class="gallery-read">🌏 5 min read</div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, corrupti.</p>
+                            <div class="gallery-action">
+                                <div class="read-more">Read more +</div>
+                                <div class="gallery-author">by <span>@Delhi</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-slide swiper-slide">
+                        <div class="gallery-image">
+                            <img src="https://images.unsplash.com/photo-1532664189809-02133fee698d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Jaipur">
+                        </div>
+                        <div class="gallery-content">
+                            <div class="destination">Jaipur</div>
+                            <div class="gallery-meta">
+                                <div class="gallery-date">
+                                    <i class="bx bxs-calendar"></i>
+                                    <span>20th October 2023</span>
+                                </div>
+                                <div class="gallery-read">🌏 5 min read</div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, corrupti.</p>
+                            <div class="gallery-action">
+                                <div class="read-more">Read more +</div>
+                                <div class="gallery-author">by <span>@Jaipur</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-slide swiper-slide">
+                        <div class="gallery-image">
+                            <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Sikkim">
+                        </div>
+                        <div class="gallery-content">
+                            <div class="destination">Sikkim</div>
+                            <div class="gallery-meta">
+                                <div class="gallery-date">
+                                    <i class="bx bxs-calendar"></i>
+                                    <span>20th November 2023</span>
+                                </div>
+                                <div class="gallery-read">🌏 5 min read</div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, corrupti.</p>
+                            <div class="gallery-action">
+                                <div class="read-more">Read more +</div>
+                                <div class="gallery-author">by <span>@Sikkim</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-slide swiper-slide">
+                        <div class="gallery-image">
+                           <img src="kerala.webp">
+                        </div>
+                        <div class="gallery-content">
+                            <div class="destination">Kerala</div>
+                            <div class="gallery-meta">
+                                <div class="gallery-date">
+                                    <i class="bx bxs-calendar"></i>
+                                    <span>8th July 2023</span>
+                                </div>
+                                <div class="gallery-read">🌏 5 min read</div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, corrupti.</p>
+                            <div class="gallery-action">
+                                <div class="read-more">Read more +</div>
+                                <div class="gallery-author">by <span>@Kerala</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-slide swiper-slide">
+                        <div class="gallery-image">
+                            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Goa">
+                        </div>
+                        <div class="gallery-content">
+                            <div class="destination">Goa</div>
+                            <div class="gallery-meta">
+                                <div class="gallery-date">
+                                    <i class="bx bxs-calendar"></i>
+                                    <span>19th November 2023</span>
+                                </div>
+                                <div class="gallery-read">🌏 5 min read</div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, corrupti.</p>
+                            <div class="gallery-action">
+                                <div class="read-more">Read more +</div>
+                                <div class="gallery-author">by <span>@Goa</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-slide swiper-slide">
+                        <div class="gallery-image">
+                            <img src="https://images.unsplash.com/photo-1564507592333-c60657eea523?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Agra">
+                        </div>
+                        <div class="gallery-content">
+                            <div class="destination">Agra</div>
+                            <div class="gallery-meta">
+                                <div class="gallery-date">
+                                    <i class="bx bxs-calendar"></i>
+                                    <span>10th December 2023</span>
+                                </div>
+                                <div class="gallery-read">🌏 5 min read</div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, corrupti.</p>
+                            <div class="gallery-action">
+                                <div class="read-more">Read more +</div>
+                                <div class="gallery-author">by <span>@Agra</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials" id="testimonials">
+        <div class="container">
+            <div class="testimonial-container">
+                <div class="testimonial-left">
+                    <h2>What Our Travelers Say</h2>
+                    <p>Read authentic experiences from our community of travelers who have explored the world with us.</p>
+                    <a href="#" class="btn">Share Your Experience</a>
+                </div>
+
+                <div class="testimonial-right">
+                    <div class="testimonial-slider swiper">
+                        <div class="swiper-wrapper">
+                            <div class="testimonial-slide swiper-slide">
+                                <div class="testimonial-content">
+                                    <p>"This was the best travel experience I've ever had. The organization was flawless, and the destinations were breathtaking. I can't wait to book my next adventure!"</p>
+                                </div>
+                                <div class="testimonial-author">
+                                    <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Sarah Johnson">
+                                    <div class="testimonial-info">
+                                        <h4>Sarah Johnson</h4>
+                                        <p>Bali Adventure</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="testimonial-slide swiper-slide">
+                                <div class="testimonial-content">
+                                    <p>"I've traveled with many companies, but this one stands out for their attention to detail and customer service. The guides were knowledgeable and friendly."</p>
+                                </div>
+                                <div class="testimonial-author">
+                                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael Chen">
+                                    <div class="testimonial-info">
+                                        <h4>Michael Chen</h4>
+                                        <p>European Tour</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="testimonial-slide swiper-slide">
+                                <div class="testimonial-content">
+                                    <p>"As a solo traveler, I felt completely safe and supported throughout my journey. I made new friends and created memories that will last a lifetime."</p>
+                                </div>
+                                <div class="testimonial-author">
+                                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Jessica Williams">
+                                    <div class="testimonial-info">
+                                        <h4>Jessica Williams</h4>
+                                        <p>Japan Discovery</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h1>Get In Touch</h1>
+                <p>Have questions or ready to plan your next adventure? Contact us today!</p>
+            </div>
+
+            <div class="contact-container">
+                <div class="contact-image">
+                    <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Contact Us">
+                    <div class="contact-image-content">
+                        <h2>Let's Chat</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ratione deleniti culpa dicta sequi nihil.</p>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h2>Contact Us</h2>
+                    <p class="required">*Required</p>
+
+                    <div class="form-group">
+                        <input type="text" placeholder="Name *" required>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="email" placeholder="Email *" required>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" placeholder="Company *" required>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="tel" placeholder="Phone *" required>
+                    </div>
+
+                    <div class="form-group">
+                        <textarea placeholder="Message..."></textarea>
+                    </div>
+
+                    <button class="submit-btn">SUBMIT</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <h2>Subscribe to Our Newsletter</h2>
+            <p>Stay updated with our latest travel offers, destination guides, and exclusive deals delivered straight to your inbox.</p>
+            
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email address" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <h3>About Us</h3>
+                    <p>We are a passionate team of travel enthusiasts dedicated to creating unforgettable experiences for our customers around the world.</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/mohd.alkamah"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/King_MA_Sheikh"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/king_ma_sheikh/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/mohd-alkamah-sheikh-21b052307/"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#featured">Featured Destinations</a></li>
+                        <li><a href="#book">Book Now</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3>Popular Destinations</h3>
+                    <ul>
+                        <li><a href="#">Bali, Indonesia</a></li>
+                        <li><a href="#">Paris, France</a></li>
+                        <li><a href="#">Santorini, Greece</a></li>
+                        <li><a href="#">Tokyo, Japan</a></li>
+                        <li><a href="#">New York, USA</a></li>
+                        <li><a href="#">Swiss Alps</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Travel Street, Tourism City</li>
+                        <li><i class="fas fa-phone"></i> +1 234 567 8900</li>
+                        <li><i class="fas fa-envelope"></i> info@tourismwebsite.com</li>
+                        <li><i class="fas fa-clock"></i> Mon-Fri: 9AM - 5PM</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="creator"><span class="creator-name">Created By:</span> <i>"King MA Sheikh"</i></div>
+
+            <div class="copyright">
+                <p>&copy; 2025 Tourism Website. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>

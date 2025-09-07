@@ -30,7 +30,7 @@ Experience the application instantly:
 Open index.html in your web browser or use a local server:
 
 🎯 Demo
-A live demo is available at: https://king-ma-sheikh.github.io/Tourism
+A live demo is available at: https://king-ma-sheikh.github.io/Tourism/
 
 🛠️ Customization Guide
 
